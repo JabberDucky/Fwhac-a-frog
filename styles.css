@@ -1,4 +1,5 @@
 .grid {
+    margin: auto;
     width: 606px;
     height: 606px;
     display: flex;
@@ -14,4 +15,8 @@
 
 .frog {
     background-color: green;
+}
+
+h2 {
+    color: green;
 }
