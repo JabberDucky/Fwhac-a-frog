@@ -1,22 +1,33 @@
+body {
+    background-color: rgb(199, 237, 95);
+}
+
 .grid {
     margin: auto;
     width: 606px;
     height: 606px;
     display: flex;
     flex-wrap: wrap;
-    border: solid black 1px;
+    background-image: url("images/vecteezy_drop-of-water-on-lily-pad-lily-pad-vector-wallpaper-free_15845878.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    
+    
 }
 
 .square {
     height: 200px;
     width: 200px;
-    border: solid black 1px;
+    background-image: url("images/vecteezy_drop-of-water-on-lily-pad-lily-pad-vector-wallpaper-free_15845878.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    position: relative;
+
+    
 }
 
 .frog {
     background-color: green;
-}
-
-h2 {
-    color: green;
+    position: absolute;
+    z-index: 1;
 }

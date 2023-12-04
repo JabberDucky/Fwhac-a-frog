@@ -2,7 +2,6 @@ const squares = document.querySelectorAll('.square')
 const frog = document.querySelector('.frog')
 const timeLeft = document.querySelector('#time-left')
 const score = document.querySelector('#score')
-const startButton = document.querySelector('#start-button')
 
 let result = 0
 let hitPostition
@@ -31,7 +30,7 @@ squares.forEach(square => {
 })
 
 function moveFrog() {
-    timerId = setInterval (randomSquare, 1000)
+    timerId = setInterval (randomSquare, 500)
 }
 
 moveFrog()
@@ -48,8 +47,3 @@ function countDown() {
 }
 
 let countDownTimerId = setInterval(countDown, 1000)
-
-startButton.addEventListener('click', () => {
-    moveFrog(); // Start the game
-    startButton.disabled = true; // Disable the button to prevent multiple game starts
-});
