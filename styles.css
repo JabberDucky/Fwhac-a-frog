@@ -3,31 +3,20 @@ body {
 }
 
 .grid {
-    margin: auto;
     width: 606px;
     height: 606px;
     display: flex;
     flex-wrap: wrap;
-    background-image: url("images/vecteezy_drop-of-water-on-lily-pad-lily-pad-vector-wallpaper-free_15845878.jpg");
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
-    
+    border: solid black 1px;
     
 }
 
 .square {
     height: 200px;
     width: 200px;
-    background-image: url("images/vecteezy_drop-of-water-on-lily-pad-lily-pad-vector-wallpaper-free_15845878.jpg");
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
-    position: relative;
-
-    
+    border: solid black 1px;
 }
 
 .frog {
-    background-color: green;
-    position: absolute;
-    z-index: 1;
+    background-color: green; 
 }

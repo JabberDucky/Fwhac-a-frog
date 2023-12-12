@@ -33,7 +33,6 @@ function moveFrog() {
     timerId = setInterval (randomSquare, 500)
 }
 
-moveFrog()
 
 function countDown() {
     currentTime--
